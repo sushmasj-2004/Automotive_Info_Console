@@ -1,0 +1,26 @@
+# ───── MPLAB X / XC8 build artifacts ─────
+nbproject/private/
+build/
+dist/
+*.o
+*.obj
+*.d
+*.map
+*.lst
+*.p1
+*.as
+*.cof
+*.elf
+*.hex        # ignore build outputs (upload HEX in Releases instead)
+
+# ───── Proteus temporary/backup files ─────
+*.bak
+*.tmp
+*.~*
+*.LOG
+*.CACHE
+
+# ───── OS junk files ─────
+.DS_Store
+Thumbs.db
+desktop.ini
